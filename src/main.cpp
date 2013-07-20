@@ -3,9 +3,14 @@
 #include "input.h"
 
 int main( int argc, char* args[] ) {
+	if(argc !=2){
+		cout<<"Usage: ./bouncingboxes path/to/music/file"<<endl;
+		return 1;
+	}
+	
 	cout<<"Setting up SDL.."<<endl;
 
-	render draw("song1.mp3", false);
+	render draw(args[1], false);
 	input keys;
 
 	cout<<"Setting up OpenGL.."<<endl;
