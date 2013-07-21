@@ -1,0 +1,12 @@
+#include <stdlib.h>
+#include <string>
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+#include <Windows.h>
+#include <gl\GL.h>
+#include <gl\GLU.h>
+#include <SDL.h>
+#include <time.h>
+
+using namespace std;
